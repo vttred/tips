@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "target": "ES2017",
+    "lib": ["DOM", "ES6", "ES2017"],
+    "types": ["foundry-pc-types"],
+    "allowJs": true /* Allow javascript files to be compiled. */,
+    "checkJs": true,
+    "rootDir": "./src" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+    "strict": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules"]
+}
