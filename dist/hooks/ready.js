@@ -8,7 +8,8 @@ const fetchHint = async () => {
         return response;
     }
     catch (error) {
-        console.log("Unable to fetch 'Did you know?' hint");
+        // eslint-disable-next-line no-console
+        console.warn("Unable to fetch 'Did you know?' hint");
     }
     return null;
 };
@@ -21,15 +22,15 @@ const formatHint = (hint) => {
 };
 // displays a fetched hint once
 const onceReady = () => {
-    console.log("We are in ready");
     registerNotifications();
     // fetch a new hint
     fetchHint()
         .then((hint) => {
         window.vtta.notification.show(formatHint(hint), null);
     })
-        .catch((error) => {
-        console.log("Unabled to display hint, fetch failed.");
+        .catch(() => {
+        // eslint-disable-next-line no-console
+        console.warn("Unabled to display hint, fetch failed.");
     });
 };
 export default onceReady;

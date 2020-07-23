@@ -17,10 +17,11 @@ const fetchHint = async (): Promise<ApiResponse> => {
 
   try {
     const raw = await fetch(API_SERVER);
-    const response = <ApiResponse>await raw.json();
+    const response: ApiResponse = await raw.json();
     return response;
   } catch (error) {
-    console.log("Unable to fetch 'Did you know?' hint");
+    // eslint-disable-next-line no-console
+    console.warn("Unable to fetch 'Did you know?' hint");
   }
   return null;
 };
@@ -35,7 +36,6 @@ const formatHint = (hint: ApiResponse) => {
 
 // displays a fetched hint once
 const onceReady = (): void => {
-  console.log("We are in ready");
   registerNotifications();
 
   // fetch a new hint
@@ -43,8 +43,9 @@ const onceReady = (): void => {
     .then((hint: ApiResponse) => {
       window.vtta.notification.show(formatHint(hint), null);
     })
-    .catch((error) => {
-      console.log("Unabled to display hint, fetch failed.");
+    .catch(() => {
+      // eslint-disable-next-line no-console
+      console.warn("Unabled to display hint, fetch failed.");
     });
 };
 

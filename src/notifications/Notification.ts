@@ -4,7 +4,7 @@
 
 declare global {
   interface Window {
-    vtta: any;
+    vtta: VTTA;
   }
 }
 
@@ -26,12 +26,12 @@ interface NotificationOptions {
 
 interface Notification {
   hide?: () => void;
-  show?: (message: any, timeout?: number) => void;
+  show?: (message: string, timeout?: number) => void;
 }
 
 interface Hint {
   hide?: () => void;
-  show?: (message: any, options?: NotificationOptions) => void;
+  show?: (message: string, options?: NotificationOptions) => void;
 }
 
 interface VTTA {
@@ -39,7 +39,7 @@ interface VTTA {
   hint: Hint;
 }
 
-const registerNotifications = () => {
+const registerNotifications = (): void => {
   // register the notification global object
 
   if ($("#vtta-notifications").length === 0) {
