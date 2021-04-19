@@ -1,1 +1,44 @@
-{}
+[
+    {
+        "id": 0,
+        "author": {
+            "name:" : "corporat"
+        },
+        "message": "test"
+    },
+    {
+        "id": 1,
+        "author": {
+            "name:" : "corporat"
+        },
+        "message": "test"
+    },
+    {
+        "id": 2,
+        "author": {
+            "name:" : "corporat"
+        },
+        "message": "test"
+    },
+    {
+        "id": 3,
+        "author": {
+            "name:" : "corporat"
+        },
+        "message": "test"
+    },
+    {
+        "id": 4,
+        "author": {
+            "name:" : "corporat"
+        },
+        "message": "test"
+    },
+    {
+        "id": 5,
+        "author": {
+            "name:" : "corporat"
+        },
+        "message": "test"
+    }
+]

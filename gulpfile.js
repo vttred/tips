@@ -139,10 +139,6 @@ const compileStyle = (cb) => {
 /**
  * File/Folder processing
  */
-const copyManifest = () => {
-  return gulp.src("./src/module.template.json").pipe(concat("module.json")).pipe(gulp.dest("./dist"));
-};
-
 const copyImages = (cb) => {
   return gulp.src("./src/img/**/*").pipe(gulp.dest("./dist/img/"));
   cb();
@@ -172,9 +168,6 @@ const watchScript = (cb) => {
 const watchStyle = (cb) => {
   gulp.watch("src/**/*.sass", { ignoreInitial: false }, compileStyle);
 };
-const watchManifest = (cb) => {
-  gulp.watch("src/module.template.json", copyManifest);
-};
 const watchImages = (cb) => {
   gulp.watch("src/lang/*.json", { ignoreInitial: false }, copyImages);
 };
@@ -182,10 +175,10 @@ const watchLanguages = (cb) => {
   gulp.watch("./src/lang/**/*.json", { ignoreInitial: false }, copyLanguages);
 };
 
-const compile = gulp.parallel(compileScript, compileStyle, copyManifest, copyImages, copyLanguages);
+const compile = gulp.parallel(compileScript, compileStyle, copyImages, copyLanguages);
 compile.description = "compile all sources";
 
-const watch = gulp.parallel(watchScript, watchStyle, watchManifest, watchImages, watchLanguages);
+const watch = gulp.parallel(watchScript, watchStyle, watchImages, watchLanguages);
 watch.description = "watch for changes to all source";
 
 gulp.task("watch", watch);

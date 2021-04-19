@@ -1,0 +1,40 @@
+{
+  "name": "tips",
+  "title": "Foundry Tips",
+  "description": "Learn how to use Foundry one tip at a time.",
+  "version": "1.1.0",
+  "manifestPlusVersion": "1.1.0",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.8.1",
+  "author": "VTT Red",
+  "authors": [
+    {
+      "name": "Anthony Ronda",
+      "url": "https://anthonyronda.com",
+      "email": "tips.vtt.red@anthonyronda.com",
+      "discord": "corporat#1282",
+      "twitter": "@nthonyronda",
+      "reddit": "u/corporat"
+    },
+    {
+      "name": "Sebastian Will",
+      "url": "https://vtta.io",
+      "email": "vttassets@gmail.com",
+      "patreon": "vttassets"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": ["dist/scripts/index.js"],
+  "styles": ["dist/style/style.min.css"],
+  "packs": [],
+  "socket": false,
+  "url": "",
+  "manifest": "",
+  "download": ""
+}

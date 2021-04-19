@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/index.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,0BAAuB;AAEvC,MAAM,CAAC,KAAK,CAAC,KAAK,GAAG,KAAK,CAAC;AAC3B,iBAAiB;AACjB,KAAK,CAAC,IAAI,CAAC,OAAO,EAAE,SAAS,CAAC,CAAC","file":"index.js","sourcesContent":["import onceReady from \"../hooks/ready\";\n\nCONFIG.debug.hooks = false;\n// register hooks\nHooks.once(\"ready\", onceReady);\n"]}
