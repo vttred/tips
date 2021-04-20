@@ -27,7 +27,7 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "dist/lang/en.json"
     }
   ],
   "esmodules": ["dist/scripts/index.js"],
