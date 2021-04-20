@@ -1,44 +1,8 @@
-[
-    {
-        "id": 0,
-        "author": {
-            "name:" : "corporat"
-        },
-        "message": "test"
-    },
-    {
-        "id": 1,
-        "author": {
-            "name:" : "corporat"
-        },
-        "message": "test"
-    },
-    {
-        "id": 2,
-        "author": {
-            "name:" : "corporat"
-        },
-        "message": "test"
-    },
-    {
-        "id": 3,
-        "author": {
-            "name:" : "corporat"
-        },
-        "message": "test"
-    },
-    {
-        "id": 4,
-        "author": {
-            "name:" : "corporat"
-        },
-        "message": "test"
-    },
-    {
-        "id": 5,
-        "author": {
-            "name:" : "corporat"
-        },
-        "message": "test"
-    }
-]
+{
+    "TIPS.didyouknow": "Did You Know?",
+    "TIPS.hint.0": "To show individual dicerolls without adding the values together, write each dice formula in double square brackets like this: [[d4]] [[d8]] [[d12]].",
+    "TIPS.hint.1": "To make a clickable button that rolls in chat, write your diceroll formula inside double brackets like this: [[/r 1d6+4]].",
+    "TIPS.hint.2": "To create an actor that has a different token image every time you use it, click the Prototype Token button, then add a wildcard path to Token Image Path.",
+    "TIPS.hint.3": "Players can't see journal entries by default. Give them access: right click a journal entry, select configure permissions, and choose Observer from the appropriate dropdown.",
+    "TIPS.hint.4": "You can add links to other entities in a journal entry by simply dragging and dropping the other entity into the body of the journal entry."
+}
