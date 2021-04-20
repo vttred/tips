@@ -4,7 +4,7 @@
     "sourceMap": true,
     "skipLibCheck": true,
     "target": "ES2017",
-    "lib": ["DOM", "ES6", "ES2017"],
+    "lib": ["DOM", "ES6", "ES2017", "ES2020"],
     "types": ["@league-of-foundry-developers/foundry-vtt-types"],
     "moduleResolution": "node",
     "allowJs": true /* Allow javascript files to be compiled. */,
