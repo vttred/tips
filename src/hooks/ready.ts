@@ -37,7 +37,7 @@ const fetchTip = async (): Promise<TipJSON> => {
 {/* <div class="didyouknow author"><span class="name">${tip.id}</span></div> */}
 const formatTip = (tip) => {
   return `<h2>${game.i18n.localize("TIPS.didyouknow")}</h2>
-${game.i18n.localize(`TIPS.hints.${Math.floor(Math.random()*6)}`)}
+${game.i18n.localize(`TIPS.hints.${Math.floor(Math.random()*Object.keys(game.i18n.translations["TIPS"]["hints"]).length)}`)}
 `;
 };
 
