@@ -18,7 +18,8 @@
         "14"    : "Hundreds of lights and walls in a single scene will cause lag on low-end PCs. Combine individual wall segments where possible to optimize performance.",
         "15"    : "Content packs have to be enabled before you can use them. Go to Settings > Manage Modules and check the proper checkbox. You can then find your content in the compendium tab.",
         "16"    : "You can connect to your game from your browser, just like a player would, even when running the desktop application.",
-        "17"    : "If you want a macro to run automatically on every load, you can add it as a script to your \"world.json\""
+        "17"    : "If you want a macro to run automatically on every load, you can add it as a script to your \"world.json\"",
+        "18"    : "If you're having an issue with a module, uninstall it and reinstall it."
         
     }
 }
