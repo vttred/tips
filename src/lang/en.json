@@ -1,11 +1,24 @@
 {
     "TIPS.didyouknow" : "Did You Know?",
     "TIPS.hints" : {
-        "0" : "Press space to unpause the game.",
-        "1" : "To make a clickable button that rolls in chat, write your diceroll formula inside double brackets like this: [[/r 1d6+4]].",
-        "2" : "To create an actor that has a different token image every time you use it, click the Prototype Token button, then add a wildcard path to Token Image Path.",
-        "3" : "Players can't see journal entries by default. Give them access: right click a journal entry, select configure permissions, and choose Observer from the appropriate dropdown.",
-        "4" : "You can add links to other entities in a journal entry by simply dragging and dropping the other entity into the body of the journal entry.",
-        "5" : "To show individual dicerolls without adding the values together, write each dice formula in double square brackets like this: [[d4]] [[d8]] [[d12]]."
+        "0"     : "Press space to unpause the game.",
+        "1"     : "To make a clickable button that rolls in chat, write your diceroll formula inside double brackets like this: [[/r 1d6+4]].",
+        "2"     : "To create an actor that has a different token image every time you use it, click the Prototype Token button, then add a wildcard path to Token Image Path.",
+        "3"     : "Players can't see journal entries by default. Give them access: right click a journal entry, select configure permissions, and choose Observer from the appropriate dropdown.",
+        "4"     : "You can add links to other entities in a journal entry by simply dragging and dropping the other entity into the body of the journal entry.",
+        "5"     : "To show individual dicerolls without adding the values together, write each dice formula in double square brackets like this: [[d4]] [[d8]] [[d12]].",
+        "6"     : "You can open the Foundry Wiki directly in your game from the settings menu.",
+        "7"     : "Disabling a module will not delete your data for that module.",
+        "8"     : "You can make a backup of your game simply by copying your Data directory somewhere safe.",
+        "9"     : "There is a Macro Browser where you can see and search all of your macros. Access it by clicking the tiny folder icon to the left of the Macro Bar.",
+        "10"    : "If you have a large scene with lots of images, you can right click the scene name at the top of your screen and select \"Preload Scene\" to start loading assets early.",
+        "11"    : "Clever use of ethereal walls and terrain walls can make token vision impaired by changes in \"elevation,\" such as not seeing who's at the top of the stairs until you ascend halfway.",
+        "12"    : "Alt+left clicking a wall vertex will select all walls connected to that wall.",
+        "13"    : "Shift+left clicking a wall vertex allows you to select multiple walls, one at a time.",
+        "14"    : "Hundreds of lights and walls in a single scene will cause lag on low-end PCs. Combine individual wall segments where possible to optimize performance.",
+        "15"    : "Content packs have to be enabled before you can use them. Go to Settings > Manage Modules and check the proper checkbox. You can then find your content in the compendium tab.",
+        "16"    : "You can connect to your game from your browser, just like a player would, even when running the desktop application.",
+        "17"    : "If you want a macro to run automatically on every load, you can add it as a script to your \"world.json\""
+        
     }
 }
