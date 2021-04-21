@@ -34,11 +34,11 @@ const fetchTip = async (): Promise<TipJSON> => {
   return {"id":"0", "author":{"name":"test"}, "message": "test2"};
 };
 // ${tip.message.replace(/\\n/g, "<br/>")}
-const formatTip = (tip: TipJSON) => {
+{/* <div class="didyouknow author"><span class="name">${tip.id}</span></div> */}
+const formatTip = (tip) => {
   return `<h2>${game.i18n.localize("TIPS.didyouknow")}</h2>
-  ${game.i18n.localize("TIPS.text")}
-  <div class="didyouknow author"><span class="name">${tip.id}</span></div>
-  `;
+${game.i18n.localize(`TIPS.hints.${Math.floor(Math.random()*6)}`)}
+`;
 };
 
 // displays a fetched tip once
