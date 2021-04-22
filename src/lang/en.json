@@ -19,7 +19,13 @@
         "15"    : "Content packs have to be enabled before you can use them. Go to Settings > Manage Modules and check the proper checkbox. You can then find your content in the compendium tab.",
         "16"    : "You can connect to your game from your browser, just like a player would, even when running the desktop application.",
         "17"    : "If you want a macro to run automatically on every load, you can add it as a script to your \"world.json\"",
-        "18"    : "If you're having an issue with a module, uninstall it and reinstall it."
+        "18"    : "If you're having an issue with a module, uninstall it and reinstall it.",
+        "19"    : "Login access keys aren't passwords. Do not reuse an important password or PIN as an access key.",
+        "20"    : "You can find your User Data folder from the Foundry Desktop application by right clicking the taskbar icon and selecting Browse User Data.",
+        "21"    : "You can quickly test if Foundry is connected to the internet on your smartphone. Temporarily disable your smartphone's wifi and enter the IP address.",
+        "22"    : "Wall endpoints and map tiles snap to a \"sub-grid\" by default. Hold shift while placing a snapping element to prevent snapping.",
+        "23"    : "Doors can have vision/light passing through, just like invisible walls. Double click the door node and select Perception Restriction \"None\" from the config dialog.",
+        "24"    : "You can reorder scene buttons in the Scene Navigation at the top of the screen by dragging and dropping."
         
     }
 }
