@@ -1,43 +1,27 @@
 import registerNotifications from "../notifications/Notification";
 
-interface Author {
-  name: string;
-}
-
-interface TipJSON {
-  id: string;
-  author: Author;
-  message: string;
-}
-
-// const loadJSON = (callback:Function)=> {   
-
-//   var xobj = new XMLHttpRequest();
-//       xobj.overrideMimeType("application/json");
-//   xobj.open('GET', '../lang/en.json', true);
-//   xobj.onreadystatechange = function () {
-//         if (xobj.readyState == 4 && xobj.status == 200) {
-//           // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-//           callback(xobj.responseText);
-//         }
-//   };
-//   xobj.send(null);  
-// }
-
 // fetches a tip from the API
-const fetchTip = async (): Promise<TipJSON> => {
-  let parsedJSON:Array<TipJSON>;
-  // loadJSON(async function (response:string) {
-  //   parsedJSON = await JSON.parse(response);
-  // })
-  console.log(parsedJSON);
-  return {"id":"0", "author":{"name":"test"}, "message": "test2"};
+const fetchPackageList = async (): Promise<string[]> => {
+  let packageList:string[] = new Array;
+  game.modules.forEach((_value: Game.Module, key: string, _map: Map<string, Game.Module>) => {
+    packageList.push(key);
+  })
+  packageList.push(game.system.id);
+  return packageList;
 };
 // ${tip.message.replace(/\\n/g, "<br/>")}
-{/* <div class="didyouknow author"><span class="name">${tip.id}</span></div> */}
-const formatTip = (tip) => {
-  return `<h2>${game.i18n.localize("TIPS.tips.didyouknow")}</h2>
-${game.i18n.localize(`TIPS.tips.${Math.floor(Math.random()*Object.keys(game.i18n.translations["TIPS"]["tips"]).length)}`)}
+/* <div class="didyouknow author"><span class="name">${tip.id}</span></div> */
+const formatTip = (packageList:string[]):string => {
+  let packageID:string;
+  while(!packageID)
+  {
+    const i:number = Math.floor(Math.random()*packageList.length);
+    const candidate:string = packageList.splice(i,1)[0];
+    if (game.i18n.translations["TIPS"][candidate]) packageID = candidate;
+  }
+
+  return `<h2>${game.i18n.localize("TIPS.?")}</h2>
+${game.i18n.localize(`TIPS.${packageID}.${Math.floor(Math.random()*Object.keys(game.i18n.translations["TIPS"][packageID]).length)}`)}
 `;
 };
 
@@ -46,13 +30,14 @@ const onceReady = (): void => {
   registerNotifications();
 
   // fetch a new tip
-  fetchTip()
-    .then((tip: TipJSON) => {
-      window.vtta.notification.show(formatTip(tip), null);
+  fetchPackageList()
+    .then((packageList:string[]) => {
+      window.vtta.notification.show(formatTip(packageList), null);
     })
-    .catch(() => {
+    .catch((err) => {
       // eslint-disable-next-line no-console
       console.warn("Unable to display tip, fetch failed.");
+      console.error(err);
     });
 };
 
