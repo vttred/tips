@@ -1,6 +1,6 @@
 {
-    "TIPS.didyouknow" : "Did You Know?",
-    "TIPS.hints" : {
+    "TIPS.tips.didyouknow" : "Did You Know?",
+    "TIPS.tips" : {
         "0"     : "Press space to pause and unpause the game.",
         "1"     : "To make a clickable button that rolls in chat, write your diceroll formula inside double brackets like this: [[/r 1d6+4]].",
         "2"     : "To create an actor that has a different token image every time you use it, click the Prototype Token button, then add a wildcard path to Token Image Path.",
