@@ -3,9 +3,10 @@
   "version": "1.1.0",
   "description": "Foundry Tips",
   "main": "dist/index.js",
-  "author": "Anthony Ronda <tips@vtt.red>",
+  "author": "VTT RED <tips@vtt.red>",
   "contributors": [
-    "Sebastian Will <vttassets@gmail.com>"
+    "Sebastian Will <vttassets@gmail.com>",
+    "Anthony Ronda <tips.vtt.red@anthonyronda.com>"
   ],
   "license": "MIT",
   "private": true,
