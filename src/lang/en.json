@@ -1,7 +1,7 @@
 {
     "TIPS.didyouknow" : "Did You Know?",
     "TIPS.hints" : {
-        "0"     : "Press space to unpause the game.",
+        "0"     : "Press space to pause and unpause the game.",
         "1"     : "To make a clickable button that rolls in chat, write your diceroll formula inside double brackets like this: [[/r 1d6+4]].",
         "2"     : "To create an actor that has a different token image every time you use it, click the Prototype Token button, then add a wildcard path to Token Image Path.",
         "3"     : "Players can't see journal entries by default. Give them access: right click a journal entry, select configure permissions, and choose Observer from the appropriate dropdown.",
@@ -10,12 +10,12 @@
         "6"     : "You can open the Foundry Wiki directly in your game from the settings menu.",
         "7"     : "Disabling a module will not delete your data for that module.",
         "8"     : "You can make a backup of your game simply by copying your Data directory somewhere safe.",
-        "9"     : "There is a Macro Browser where you can see and search all of your macros. Access it by clicking the tiny folder icon to the left of the Macro Bar.",
-        "10"    : "If you have a large scene with lots of images, you can right click the scene name at the top of your screen and select \"Preload Scene\" to start loading assets early.",
+        "9"     : "There is a Macro Browser where you can see all of your macros. Access it by clicking the tiny folder icon to the left of the Macro Bar.",
+        "10"    : "If you want to activate a large scene with lots of images, you can right click the scene name at the top of your screen and select \"Preload Scene\" as soon as you know it will be the next scene.",
         "11"    : "Clever use of ethereal walls and terrain walls can make token vision impaired by changes in \"elevation,\" such as not seeing who's at the top of the stairs until you ascend halfway.",
         "12"    : "Alt+left clicking a wall vertex will select all walls connected to that wall.",
         "13"    : "Shift+left clicking a wall vertex allows you to select multiple walls, one at a time.",
-        "14"    : "Hundreds of lights and walls in a single scene will cause lag on low-end PCs. Combine individual wall segments where possible to optimize performance.",
+        "14"    : "Hundreds of lights and walls in a single scene will cause lag on low-end PCs. Reduce individual wall segments where possible to optimize performance.",
         "15"    : "Content packs have to be enabled before you can use them. Go to Settings > Manage Modules and check the proper checkbox. You can then find your content in the compendium tab.",
         "16"    : "You can connect to your game from your browser, just like a player would, even when running the desktop application.",
         "17"    : "If you want a macro to run automatically on every load, you can add it as a script to your \"world.json\"",
@@ -25,7 +25,10 @@
         "21"    : "You can quickly test if Foundry is connected to the internet on your smartphone. Temporarily disable your smartphone's wifi and enter the IP address.",
         "22"    : "Wall endpoints and map tiles snap to a \"sub-grid\" by default. Hold shift while placing a snapping element to prevent snapping.",
         "23"    : "Doors can have vision/light passing through, just like invisible walls. Double click the door node and select Perception Restriction \"None\" from the config dialog.",
-        "24"    : "You can reorder scene buttons in the Scene Navigation at the top of the screen by dragging and dropping."
+        "24"    : "You can reorder scene buttons in the Scene Navigation at the top of the screen by dragging and dropping.",
+        "25"    : "The \"Add\" Active Effect adds the given value the character stat, while the \"Upgrade\" Active Effect sets the new value only if it is higher than the character stat.",
+        "26"    : "Compendiums that come with systems and modules are locked for editing by default. If you want to use modified compendium items, copy some or all of the compendium and then edit the copy.",
+        "27"    : "Players can have control of multiple Tokens. Just grant players the Owner permission of each Actor you want them to control."
         
     }
 }
