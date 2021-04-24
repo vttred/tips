@@ -28,7 +28,12 @@
         "24"    : "You can reorder scene buttons in the Scene Navigation at the top of the screen by dragging and dropping.",
         "25"    : "The \"Add\" Active Effect adds the given value the character stat, while the \"Upgrade\" Active Effect sets the new value only if it is higher than the character stat.",
         "26"    : "Compendiums that come with systems and modules are locked for editing by default. If you want to use modified compendium items, copy some or all of the compendium and then edit the copy.",
-        "27"    : "Players can have control of multiple Tokens. Just grant players the Owner permission of each Actor you want them to control."
-        
+        "27"    : "Players can have control of multiple Tokens. Just grant players the Owner permission of each Actor you want them to control.",
+        "28"    : "You can copy and paste tokens, map tiles, and other items between scenes. Just select them, Control + C, swap scenes, and Control + V.",
+        "29"    : "Invisible tokens are also hidden from players in the combat tracker. You can click the eye icon to reveal them.",
+        "30"    : "Journal Entries can be dragged and dropped into a scene. They are hidden from players by default.",
+        "31"    : "You can right click names in the bottom left corner player list to access User Configuration settings.",
+        "32"    : "To delete a lot of Entities from the directory at the same time, you can reduce clicking by dragging each of them into a folder and deleting the folder.",
+        "33"    : "Each user has their own fog of war history. You can't pre-setup fog of war for players by logging in and moving their token."
     }
 }
