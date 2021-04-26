@@ -34,6 +34,7 @@
         "30"    : "Journal Entries can be dragged and dropped into a scene. They are hidden from players by default.",
         "31"    : "You can right click names in the bottom left corner player list to access User Configuration settings.",
         "32"    : "To delete a lot of Entities from the directory at the same time, you can reduce clicking by dragging each of them into a folder and deleting the folder.",
-        "33"    : "Each user has their own fog of war history. You can't pre-setup fog of war for players by logging in and moving their token."
+        "33"    : "Each user has their own fog of war history. You can't pre-setup fog of war for players by logging in and moving their token.",
+        "34"    : "If a player has ownership of two or more tokens in the scene, the Tab key cycles selection between each token."
     }
 }
