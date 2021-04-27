@@ -2,7 +2,7 @@
  
 Learn how to use Foundry one tip at a time.
  
-![A partial screenshot of the Foundry app with a text box that says "Did You Know? If a player has ownership of two or more tokens in the scene, the Tab key cycles selection between each token."](https://github.com/vttred/tips/img/blob/main/tips.png?raw=true "Foundry Tips Screenshot")
+![A partial screenshot of the Foundry app with a text box that says "Did You Know? If a player has ownership of two or more tokens in the scene, the Tab key cycles selection between each token."](https://github.com/vttred/tips/blob/main/img/tips.PNG?raw=true "Foundry Tips Screenshot")
  
 Foundry Tips is a module that displays random Foundry usage tips whenever
 the user logs into a world.
