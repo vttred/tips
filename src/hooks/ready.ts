@@ -20,8 +20,8 @@ const formatTip = (packageList:string[]):string => {
     if (game.i18n.translations["TIPS"][candidate]) packageID = candidate;
   }
 
-  return `<h2>${game.i18n.localize("TIPS.?")}</h2>
-${game.i18n.localize(`TIPS.${packageID}.${Math.floor(Math.random()*Object.keys(game.i18n.translations["TIPS"][packageID]).length)}`)}
+  return `<h3><i class="fas fa-lightbulb"></i> ${game.i18n.localize("TIPS.?")}</h3>
+<p>${game.i18n.localize(`TIPS.${packageID}.${Math.floor(Math.random()*Object.keys(game.i18n.translations["TIPS"][packageID]).length)}`)}</p>
 `;
 };
 
