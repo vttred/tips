@@ -4,10 +4,14 @@ Learn how to use Foundry one tip at a time.
  
 ![A partial screenshot of the Foundry app with a text box that says "Did You Know? If a player has ownership of two or more tokens in the scene, the Tab key cycles selection between each token."](https://github.com/vttred/tips/blob/main/img/tips.PNG?raw=true "Foundry Tips Screenshot")
  
-Foundry Tips is a module that displays random Foundry usage tips whenever
-the user logs into a world.
+Foundry Tips is a FVTT module that displays random Foundry usage tips whenever
+the user logs into a world. They can receive a core Foundry tip, a system-
+specific tip, or a tip for another module!
 
 ## Installation
+
+Foundry Tips is now available in the official Foundry VTT package list! Find
+it in the package list, or follow these steps.
 
 1. Copy the manifest URL: `https://github.com/vttred/tips/releases/latest/download/module.json`
 2. Go to Foundry's Configuration and Setup > Add-on Modules, click Install Module.
@@ -22,7 +26,7 @@ a random tip for an enabled package (or a core tip) will be shown to the user.
 In your localization file, use the following structure.
  
 ```json
-// /lang/en.json
+// example: modules/yourexactmodulename/lang/en.json
 {
     ...
     "TIPS.yourexactmodulename" : {
@@ -46,6 +50,8 @@ package tip-writing help, images, links, video, opening menus/highlighting
 buttons). Your imagination with no limitations!
  
 ## Contributing
+
+### Contributing in English
  
 The easiest way you can contribute is just by answering Foundry Core
 questions in the [Discussions][7] or in #core-how-to on the
@@ -54,7 +60,25 @@ core Foundry from April 2021 onward, ask me for a contributor credit by
 opening a new Issue.
 
 You can also contribute tips directly by opening Issues, replying to
-Issues, and opening Pull Requests.
+Issues, and opening Pull Requests in this GitHub repository.
+
+### Contributing tip translations
+
+Each tip translation must match the key (the number before the tip
+text) of the English tip. You may skip tip translations so long as
+you also skip each number/key of the skipped tips.
+
+VTT Red is in contact with a couple members of the Foundry community
+to best serve their localization needs. Please contact corporat#1282
+on Discord for further assistance.
+
+### Contributing `dnd5e` and `worldbuilding` tips
+
+Two packages, [`dnd5e`][12] and [`worldbuilding`][13] are maintained
+by Foundry Gaming, and FG is not likely to maintain a tip repository
+of their own. For these two packages only, we will accept contributions
+into this repository. All other package tips should be contributed
+to their respective package repositories.
 
 ## Changlog
 
@@ -62,15 +86,34 @@ See [Releases][9].
 
 ## License
 
-This module is available under the MIT Expat license. See [LICENSE][10].
-Your obligation under the license is to credit the authors.
- 
+Package code is available under the MIT Expat license. See [LICENSE][10].
+Your obligation under the MIT Expat license is to credit the authors and
+acknowledge their copyright.
+
+```
+Copyright (c) 2020-2021 VTTAssets, VTT RED
+```
+
+Tips are available under [Creative Commons Attribution 4.0 International][14].
+Your obligation under the Creative Commons license is to provide a title,
+author, source, and the license name, with links to the canonical source,
+author profile page (if available), and license text. The tip title is 
+`(packagename/Core) Foundry Tip Number (tipnumber)` unless otherwise stated.
+
+A link to the tip on https://foundry.tips is sufficient in most cases (Coming soon!)
+
+```md
+[Core Foundry Tip Number One](https://github.com/vttred/tips) by [Anthony Ronda](https://github.com/anthonyronda) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+```
+
 ## Acknowledgements
  
 * Forked from [VTTAssets][1]/[VTTA-didyouknow][2] with the blessing of
-  Sebastian from [VTTA.io][3] (sorry it took me so long!)
-* Uses [League-of-Foundry-Developers][4]/[FoundryVTT-Module-Template][5]
-* Uses [League-of-Foundry-Developers][4]/[foundry-vtt-types][6]
+  Sebastian from [VTTA.io][3]
+* Uses [League-of-Foundry-Developers][4]/[FoundryVTT-Module-Template][5]. Copyright (c) Repository Owner and Contributors
+* Uses [League-of-Foundry-Developers][4]/[foundry-vtt-types][6]. Copyright (c) Kai Moshchcau and Contributors
+* This Foundry VTT module is made possible by the [Limited License Agreement for Module
+Development][15]. Foundry VTT is a trademark of Foundry Gaming LLC.
  
 [1]: https://github.com/VTTAssets
 [2]: https://github.com/VTTAssets/vtta-didyouknow
@@ -83,3 +126,7 @@ Your obligation under the license is to credit the authors.
 [9]: https://github.com/vttred/tips/releases
 [10]: https://github.com/vttred/tips/blob/main/LICENSE
 [11]: mailto:tips@vtt.red
+[12]: https://www.foundryvtt-hub.com/package/dnd5e/
+[13]: https://www.foundryvtt-hub.com/package/worldbuilding/
+[14]: http://creativecommons.org/licenses/by/4.0/
+[15]: https://foundryvtt.com/article/license/
