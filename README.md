@@ -28,14 +28,14 @@ In your localization file, use the following structure.
 ```json
 // example: modules/yourexactmodulename/lang/en.json
 {
-    ...
+    //...
     "TIPS.yourexactmodulename" : {
         "0"         : "This is a tip.",
         "1"         : "This is the second tip.",
-        ...
+        //...
         "9999"      : "this is the last tip"
     }
-    ...
+    //...
 }
 ```
  
@@ -51,8 +51,13 @@ buttons). Your imagination with no limitations!
  
 ## Contributing
 
-### Contributing in English
- 
+### Contributing code
+
+You agree to license your code under the MIT Expat license. Please add
+your name to the contributors list in one of your commits. 
+
+### Contributing tips in English
+
 The easiest way you can contribute is just by answering Foundry Core
 questions in the [Discussions][7] or in #core-how-to on the
 [official Foundry VTT Discord server][8]. If you helped someone use
@@ -60,7 +65,10 @@ core Foundry from April 2021 onward, ask me for a contributor credit by
 opening a new Issue.
 
 You can also contribute tips directly by opening Issues, replying to
-Issues, and opening Pull Requests in this GitHub repository.
+Issues, and opening Pull Requests in this GitHub repository. You agree that
+your tip contributions are [CC BY 4.0][14] licensed.
+
+**Note: A tip you've learned from someoneone else and written in your own words can be attributed to you as the author. A tip taken word-for-word from someone else can't be used without their permission. Facts are *libre,* writing is copyright protected.**
 
 ### Contributing tip translations
 
@@ -80,7 +88,7 @@ of their own. For these two packages only, we will accept contributions
 into this repository. All other package tips should be contributed
 to their respective package repositories.
 
-## Changlog
+## Changelog
 
 See [Releases][9].
 
