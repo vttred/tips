@@ -116,10 +116,10 @@ A link to the tip on https://foundry.tips is sufficient in most cases (Coming so
 
 ## Acknowledgements
  
-* Forked from [VTTAssets][1]/[VTTA-didyouknow][2] with the blessing of
-  Sebastian from [VTTA.io][3]
+* Forked from [VTTAssets][1]/[VTTA-didyouknow][2] with the blessing of Sebastian from [VTTA.io][3]
 * Uses [League-of-Foundry-Developers][4]/[FoundryVTT-Module-Template][5]. Copyright (c) Repository Owner and Contributors
 * Uses [League-of-Foundry-Developers][4]/[foundry-vtt-types][6]. Copyright (c) Kai Moshchcau and Contributors
+* Stylesheet ideas from [ardittristan][16]/[VTTButtonOverflow][17] Copyright (c) ardittristan
 * This Foundry VTT module is made possible by the [Limited License Agreement for Module
 Development][15]. Foundry VTT is a trademark of Foundry Gaming LLC.
  
@@ -138,3 +138,5 @@ Development][15]. Foundry VTT is a trademark of Foundry Gaming LLC.
 [13]: https://www.foundryvtt-hub.com/package/worldbuilding/
 [14]: http://creativecommons.org/licenses/by/4.0/
 [15]: https://foundryvtt.com/article/license/
+[16]: https://github.com/ardittristan/
+[17]: https://github.com/ardittristan/VTTButtonOverflow/

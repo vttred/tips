@@ -59,9 +59,9 @@ const registerNotifications = (): void => {
           });
         },
         show: (message, timeout = 4000) => {
-          $("#tips-notifications").css("left", $("#players").css("left"));
+          //$("#tips-notifications").css("left", $("#players").css("left"));
           // prettier-ignore
-          $("#tips-notifications").css("bottom", $("#players").height() + (2 * MARGIN));
+          //$("#tips-notifications").css("bottom", $("#players").height() + (2 * MARGIN));
 
           let note = $("#tips-notifications").append(message);
           $(note).fadeIn(200);
