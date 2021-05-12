@@ -2,7 +2,7 @@
  
 Learn how to use Foundry one tip at a time.
  
-![A partial screenshot of the Foundry app with a text box that says "Did You Know? Doors can have vision/light passing through, just like invisible walls. Double click the door node and select Perception Restriction \"None\" from the config dialog."](https://github.com/vttred/tips/blob/main/img/tips.PNG?raw=true "Foundry Tips Screenshot")
+![A partial screenshot of the Foundry app with a text box that says \"Did You Know? Doors can have vision/light passing through, just like invisible walls. Double click the door node and select Perception Restriction \"None\" from the config dialog.\"](https://github.com/vttred/tips/blob/main/img/tips.PNG?raw=true "Foundry Tips Screenshot")
  
 Foundry Tips is a FVTT module that displays random Foundry usage tips whenever
 the user logs into a world. They can receive a core Foundry tip, a system-
