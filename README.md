@@ -53,8 +53,15 @@ buttons). Your imagination with no limitations!
 
 ### Contributing code
 
-You agree to license your code under the MIT Expat license. Please add
-your name to the contributors list in one of your commits. 
+Fork this Repo! Clone your fork into a local directory. Create a branch
+named after the improvement or fix you wish to solve, and append the issue
+number. For example, `git checkout -b readme-improvements-9`. When you're done,
+create a pull request to this repo with your completed change.
+
+You agree to license your code under the MIT Expat license. Your name and git.email
+will be added to the [CONTRIBUTORS][18] file. Either you or your employer will be
+added to the [AUTHORS][19] file. Please indicate if your contribution is part of your
+lawful employment.  
 
 ### Contributing tips in English
 
@@ -140,3 +147,5 @@ Development][15]. Foundry VTT is a trademark of Foundry Gaming LLC.
 [15]: https://foundryvtt.com/article/license/
 [16]: https://github.com/ardittristan/
 [17]: https://github.com/ardittristan/VTTButtonOverflow/
+[18]: https://github.com/vttred/tips/blob/main/CONTRIBUTORS
+[19]: https://github.com/vttred/tips/blob/main/AUTHORS
