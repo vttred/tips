@@ -5,7 +5,7 @@
   "version": "1.1.0",
   "manifestPlusVersion": "1.1.0",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.8.1",
+  "compatibleCoreVersion": "0.8.3",
   "author": "VTT Red",
   "authors": [
     {
@@ -21,6 +21,13 @@
       "url": "https://vtta.io",
       "email": "vttassets@gmail.com",
       "patreon": "vttassets"
+    }
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "url": "https://github.com/vttred/tips/blob/main/img/tips.PNG?raw=true",
+      "caption": "A partial screenshot of the Foundry app with a text box that says \"Did You Know? Doors can have vision/light passing through, just like invisible walls. Double click the door node and select Perception Restriction \"None\" from the config dialog.\""
     }
   ],
   "languages": [
