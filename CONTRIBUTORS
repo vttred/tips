@@ -1,0 +1,17 @@
+# People who have contributed patches show here.
+# The AUTHORS file lists the copyright holders; this file
+# lists people. For example, VTT Red employees are listed here
+# but not in AUTHORS, because Google holds the copyright.
+#
+# When adding J Random Contributor's name to this file,
+# either J's name or J's organization's name should be
+# added to the AUTHORS file, depending on whether the
+# individual or corporate CLA was used.
+#
+# Names should be added to this file as:
+#     Name <email address>
+#
+# Please keep the list sorted.
+
+Anthony Ronda <tips.vtt.red@anthonyronda.com>
+Sebastian Will <vttassets@gmail.com>
