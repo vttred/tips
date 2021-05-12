@@ -106,7 +106,7 @@ Your obligation under the MIT Expat license is to credit the authors and
 acknowledge their copyright.
 
 ```
-Copyright (c) 2020-2021 VTTAssets, VTT RED
+Copyright (c) 2020-2021 VTTAssets, VTT Red LLC
 ```
 
 Tips are available under [Creative Commons Attribution 4.0 International][14].
