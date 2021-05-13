@@ -1,5 +1,5 @@
 {
-    "TIPS.?"    : "Did You Know?",
+    "FOUNDRYTIPS.didyouknow"    : "Did You Know?",
     "TIPS.tips" : {
         "0"     : "Press space to pause and unpause the game.",
         "1"     : "To make a clickable button that rolls in chat, write your diceroll formula inside double brackets like this: [[/r 1d6+4]].",

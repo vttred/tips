@@ -28,7 +28,7 @@ const formatTip = (packageList:string[]):string => {
   }
  
 
-  return `<h3><i class="fas fa-lightbulb"></i> ${game.i18n.localize("TIPS.?")}</h3>
+  return `<h3><i class="fas fa-lightbulb"></i> ${game.i18n.localize("FOUNDRYTIPS.didyouknow")}</h3>
 <p>${game.i18n.localize(`TIPS.${packageID}.${tipID}`)}</p>
 `;
 };
