@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "VanceCole",
+      "name": "Vance Cole",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16364586?v=4",
+      "profile": "https://github.com/VanceCole",
+      "contributions": [
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "tips",
+  "projectOwner": "vttred",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
