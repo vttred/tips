@@ -12,14 +12,20 @@ const fetchPackageList = async () => {
 /* <div class="didyouknow author"><span class="name">${tip.id}</span></div> */
 const formatTip = (packageList) => {
     let packageID;
+    let tipID;
     while (!packageID) {
         const i = Math.floor(Math.random() * packageList.length);
         const candidate = packageList.splice(i, 1)[0];
         if (game.i18n.translations["TIPS"][candidate])
             packageID = candidate;
     }
+    while (!tipID) {
+        const i = Math.floor(Math.random() * Object.keys(game.i18n.translations["TIPS"][packageID]).length);
+        if (game.i18n.translations["TIPS"][packageID])
+            tipID = i;
+    }
     return `<h3><i class="fas fa-lightbulb"></i> ${game.i18n.localize("TIPS.?")}</h3>
-<p>${game.i18n.localize(`TIPS.${packageID}.${Math.floor(Math.random() * Object.keys(game.i18n.translations["TIPS"][packageID]).length)}`)}</p>
+<p>${game.i18n.localize(`TIPS.${packageID}.${tipID}`)}</p>
 `;
 };
 // displays a fetched tip once
