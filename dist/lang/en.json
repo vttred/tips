@@ -35,6 +35,21 @@
         "31"    : "You can right click names in the bottom left corner player list to access User Configuration settings.",
         "32"    : "To delete a lot of Entities from the directory at the same time, you can reduce clicking by dragging each of them into a folder and deleting the folder.",
         "33"    : "Each user has their own fog of war history. You can't pre-setup fog of war for players by logging in and moving their token.",
-        "34"    : "If a player has ownership of two or more tokens in the scene, the Tab key cycles selection between each token."
+        "34"    : "If a player has ownership of two or more tokens in the scene, the Tab key cycles selection between each token.",
+        "35"    : "The easiest way to create links to other entities in your Journal Entries is dragging and dropping them right into the Journal Entry.",
+        "36"    : "Hosting your Foundry User Data in an automatically sync'd folder might cause errors, corruption, or data loss.",
+        "37"    : "The Fog of War Exploration can be reset with the trash can icon under the Lighting menu.",
+        "38"    : "You can right click a player in the Player List and choose Pull to Scene to bring them to your current scene despite whichever scene is active.",
+        "39"    : "One Roll Table can be a possible result of another Roll Table by dragging and dropping the first Roll Table into a row of the second Roll Table.",
+        "40"    : "Toggle visibility of a token by right-clicking the token and clicking the hooded head icon.",
+        "41"    : "Disabling Soft Shadows in Settings can increase performance.",
+        "42"    : "Compendiums can be made visible to players, but they are hidden by default. Right click a Compendium and select Toggle Visibility.",
+        "43"    : "Double right click a Map Note to change its settings, including icon size and font size.",
+        "44"    : "Whispering to a player with a space in their name requires brackets. For example, \"/w [Player Name]\".",
+        "45"    : "Disabling Draw With Replacement on a Roll Table will always roll a new result each time until every result has been rolled once.",
+        "46"    : "You can hide your cursor from others in Settings.",
+        "47"    : "You can disable Pan to Speaker in Settings to stop the camera from centering on the token that most recently sent a chat message.",
+        "48"    : "You might be asked to check the developer console for errors. Press F12 to toggle the console and scroll to look for text highlighted in red.",
+        "49"    : "Clicking and dragging while placing an ambient sound or light will give it a radius."
     }
 }
