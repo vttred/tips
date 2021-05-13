@@ -22,9 +22,8 @@ it in the package list, or follow these steps.
  
 ## Developing Tips for your own Foundry package
  
-At this time, you may begin adding tips for your own module or system to your
-localization files. These will automatically get loaded into Foundry Tips and
-a random tip for an enabled package (or a core tip) will be shown to the user.
+Tips will automatically get loaded into Foundry Tips and a random tip for an enabled package
+(or a core tip) will be shown to the user.
  
 In your localization file, use the following structure.
  
@@ -46,6 +45,8 @@ No code! Just JSON! Please contact me if you use Foundry Tips and
 need some help. Suggestions for restructuring the JSON are also
 welcome at this time. Thank you!
 
+**Foundry Fans! Tell the maintainers of your favorite systems and modules how you can help them write tips!**
+
 ### Special Implementation Requests
 
 Direct special implementation requests to [tips@vtt.red][11]. Closed source
@@ -54,6 +55,11 @@ buttons). Your imagination with no limitations!
  
 ## Contributing
 
+You agree to license your contribution under the MIT Expat license. Your name and git.email
+will be added to the [CONTRIBUTORS][18] file. Either you or your employer will be
+added to the [AUTHORS][19] file. Please indicate if your contribution is part of your
+employment (for copyright purposes).
+
 ### Contributing code
 
 Fork this Repo! Clone your fork into a local directory. Create a branch
@@ -61,22 +67,17 @@ named after the improvement or fix you wish to solve, and append the issue
 number. For example, `git checkout -b readme-improvements-9`. When you're done,
 create a pull request to this repo with your completed change.
 
-You agree to license your code under the MIT Expat license. Your name and git.email
-will be added to the [CONTRIBUTORS][18] file. Either you or your employer will be
-added to the [AUTHORS][19] file. Please indicate if your contribution is part of your
-lawful employment.  
-
 ### Contributing tips in English
 
 The easiest way you can contribute is just by answering Foundry Core
 questions in the [Discussions][7] or in #core-how-to on the
 [official Foundry VTT Discord server][8]. If you helped someone use
 core Foundry from April 2021 onward, ask me for a contributor credit by
-opening a new Issue.
+messaging me or opening a new Issue.
 
 You can also contribute tips directly by opening Issues, replying to
 Issues, and opening Pull Requests in this GitHub repository. You agree that
-your tip contributions are [CC BY 4.0][14] licensed.
+your tip contributions are [MIT][10] licensed.
 
 **Note: A tip you've learned from someoneone else and written in your own words can be attributed to you as the author. A tip taken word-for-word from someone else can't be used without their permission. Facts are *libre,* writing is copyright protected.**
 
@@ -112,17 +113,7 @@ acknowledge their copyright.
 Copyright (c) 2020-2021 VTTAssets, VTT Red LLC
 ```
 
-Tips are available under [Creative Commons Attribution 4.0 International][14].
-Your obligation under the Creative Commons license is to provide a title,
-author, source, and the license name, with links to the canonical source,
-author profile page (if available), and license text. The tip title is 
-`(packagename/Core) Foundry Tip Number (tipnumber)` unless otherwise stated.
-
 A link to the tip on https://foundry.tips is sufficient in most cases (Coming soon!)
-
-```md
-[Core Foundry Tip Number One](https://github.com/vttred/tips) by [Anthony Ronda](https://github.com/anthonyronda) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
-```
 
 ## Acknowledgements
  
@@ -146,7 +137,6 @@ Development][15]. Foundry VTT is a trademark of Foundry Gaming LLC.
 [11]: mailto:tips@vtt.red
 [12]: https://www.foundryvtt-hub.com/package/dnd5e/
 [13]: https://www.foundryvtt-hub.com/package/worldbuilding/
-[14]: http://creativecommons.org/licenses/by/4.0/
 [15]: https://foundryvtt.com/article/license/
 [16]: https://github.com/ardittristan/
 [17]: https://github.com/ardittristan/VTTButtonOverflow/
