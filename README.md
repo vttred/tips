@@ -162,6 +162,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/VanceCole"><img src="https://avatars.githubusercontent.com/u/16364586?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vance Cole</b></sub></a><br /><a href="#ideas-VanceCole" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/Norc"><img src="https://avatars.githubusercontent.com/u/64667579?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Norc</b></sub></a><br /><a href="#ideas-Norc" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
