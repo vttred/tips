@@ -1,0 +1,9 @@
+{
+    "TIPS.yourexactmodulename" : {
+        "0"     : "Place your tips here",
+        "1"     : "You can have as many as you like",
+        "2"     : "You can skip numbers, but don't!",
+        "3"     : "Skipping numbers is implemented so that tip translators can skip translating some tips",
+        "5"     : "So if you're translating tips, feel free to skip some of them, but make sure the numbers match the originals!",
+    }
+}
