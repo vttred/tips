@@ -13,6 +13,7 @@ const fetchPackageList = async (): Promise<string[]> => {
 /* <div class="didyouknow author"><span class="name">${tip.id}</span></div> */
 const formatTip = (packageList:string[]):string => {
   let packageID:string;
+  let tipID:number;
   while(!packageID)
   {
     const i:number = Math.floor(Math.random()*packageList.length);
@@ -20,8 +21,15 @@ const formatTip = (packageList:string[]):string => {
     if (game.i18n.translations["TIPS"][candidate]) packageID = candidate;
   }
 
+  while(!tipID)
+  {
+    const i:number = Math.floor(Math.random()*Object.keys(game.i18n.translations["TIPS"][packageID]).length);
+    if(game.i18n.translations["TIPS"][packageID]) tipID = i;
+  }
+ 
+
   return `<h3><i class="fas fa-lightbulb"></i> ${game.i18n.localize("TIPS.?")}</h3>
-<p>${game.i18n.localize(`TIPS.${packageID}.${Math.floor(Math.random()*Object.keys(game.i18n.translations["TIPS"][packageID]).length)}`)}</p>
+<p>${game.i18n.localize(`TIPS.${packageID}.${tipID}`)}</p>
 `;
 };
 
