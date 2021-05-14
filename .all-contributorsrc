@@ -31,6 +31,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "InkyThumb",
+      "name": "InkyThumb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73848554?v=4",
+      "profile": "https://github.com/InkyThumb",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
