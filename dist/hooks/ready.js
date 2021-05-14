@@ -30,17 +30,19 @@ const formatTip = (packageList) => {
 };
 // displays a fetched tip once
 const onceReady = () => {
-    registerNotifications();
-    // fetch a new tip
-    fetchPackageList()
-        .then((packageList) => {
-        window.vtta.notification.show(formatTip(packageList), null);
-    })
-        .catch((err) => {
-        // eslint-disable-next-line no-console
-        console.warn("Unable to display tip, fetch failed.");
-        console.error(err);
-    });
+    if (game.user.data.role >= CONST.USER_ROLES.ASSISTANT || game.settings.get("tips", "show-everyone-gm-tips")) {
+        registerNotifications();
+        // fetch a new tip
+        fetchPackageList()
+            .then((packageList) => {
+            window.vtta.notification.show(formatTip(packageList), null);
+        })
+            .catch((err) => {
+            // eslint-disable-next-line no-console
+            console.warn("Unable to display tip, fetch failed.");
+            console.error(err);
+        });
+    }
 };
 export default onceReady;
 
