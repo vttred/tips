@@ -1,6 +1,6 @@
 # Foundry Tips
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
  
 Learn how to use Foundry one tip at a time.
@@ -151,6 +151,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/VanceCole"><img src="https://avatars.githubusercontent.com/u/16364586?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vance Cole</b></sub></a><br /><a href="#ideas-VanceCole" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/Norc"><img src="https://avatars.githubusercontent.com/u/64667579?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Norc</b></sub></a><br /><a href="#ideas-Norc" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://lordzeel.com"><img src="https://avatars.githubusercontent.com/u/1721836?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zeel</b></sub></a><br /><a href="#ideas-zeel01" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/InkyThumb"><img src="https://avatars.githubusercontent.com/u/73848554?v=4?s=100" width="100px;" alt=""/><br /><sub><b>InkyThumb</b></sub></a><br /><a href="https://github.com/vttred/tips/pulls?q=is%3Apr+reviewed-by%3AInkyThumb" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
