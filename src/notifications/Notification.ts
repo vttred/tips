@@ -73,7 +73,7 @@ const registerNotifications = (): void => {
               });
             }, timeout);
           else
-            $(note).append('<p style="text-align: center; color: #7e7e7e; margin: 0px;"><small>Click to close</small>');
+            $(note).append(`<p style="text-align: center; color: #7e7e7e; margin: 0px;"><small>${game.i18n.localize("FOUNDRYTIPS.clicktoclose")}</small>`);
 
           $(note).on("click", () => {
             $(note).fadeOut(200, () => {
