@@ -11,6 +11,10 @@ Foundry Tips is a FVTT module that displays random Foundry usage tips whenever
 the user logs into a world. They can receive a core Foundry tip, a system-
 specific tip, or a tip for another module!
 
+By default, tips are currently hidden from players and trusted players. You
+can enable tips for everyone by clicking the "Show Everyone" checkbox in module
+settings.
+
 ## Installation
 
 Foundry Tips is now available in the official Foundry VTT package list! Find
