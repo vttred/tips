@@ -1,5 +1,7 @@
 {
     "FOUNDRYTIPS.didyouknow"    : "Did You Know?",
+    "FOUNDRYTIPS.showeveryone"  : "Show Everyone?",
+    "FOUNDRYTIPS.showeveryone-hint" : "Enable this to allow players to see tips.",
     "TIPS.tips" : {
         "0"     : "Press space to pause and unpause the game.",
         "1"     : "To make a clickable button that rolls in chat, write your diceroll formula inside double brackets like this: [[/r 1d6+4]].",
