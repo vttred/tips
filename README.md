@@ -109,10 +109,6 @@ Package code is available under the MIT Expat license. See [LICENSE][10].
 Your obligation under the MIT Expat license is to credit the authors and
 acknowledge their copyright.
 
-```
-Copyright (c) 2020-2021 VTTAssets, VTT Red LLC
-```
-
 A link to the tip on https://foundry.tips is sufficient in most cases (Coming soon!)
 
 ## Acknowledgements
