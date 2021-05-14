@@ -15,12 +15,6 @@
       "discord": "corporat#1282",
       "twitter": "@nthonyronda",
       "reddit": "u/corporat"
-    },
-    {
-      "name": "Sebastian Will",
-      "url": "https://vtta.io",
-      "email": "vttassets@gmail.com",
-      "patreon": "vttassets"
     }
   ],
   "media": [
@@ -35,6 +29,11 @@
       "lang": "en",
       "name": "English",
       "path": "dist/lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "dist/lang/es.json"
     }
   ],
   "esmodules": ["dist/scripts/index.js"],
