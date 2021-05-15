@@ -1,6 +1,6 @@
 {
     "FOUNDRYTIPS.didyouknow"    : "¿Sabías que...",
-    "FOUNDRYTIPS.clicktoclose"  : "Haga click para cerrar",
+    "FOUNDRYTIPS.clicktoclose"  : "Haz click para cerrar",
     "TIPS.tips" : {
         "0"     : "Pulsa espacio para pausar y despausar el juego.",
         "1"     : "Para hacer un botón clickable que haga una tirada en el chat, pon tu fórmula de tirada dentro de dobles corchetes: [[/r 1d6+4]].",
