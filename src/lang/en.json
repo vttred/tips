@@ -1,5 +1,6 @@
 {
     "FOUNDRYTIPS.didyouknow"    : "Did You Know?",
+    "FOUNDRYTIPS.clicktoclose"  : "Click to close",
     "FOUNDRYTIPS.showeveryone"  : "Show Everyone?",
     "FOUNDRYTIPS.showeveryone-hint" : "Enable this to allow players to see tips.",
     "TIPS.tips" : {
