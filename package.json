@@ -11,7 +11,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@league-of-foundry-developers/foundry-vtt-types": "^0.7.9-6",
+    "@league-of-foundry-developers/foundry-vtt-types": "^0.8.8-0",
     "@types/jquery": "^3.5.0",
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
