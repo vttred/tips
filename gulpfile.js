@@ -10,7 +10,7 @@ const sourcemaps = require("gulp-sourcemaps");
 const cleanCSS = require("gulp-clean-css");
 const autoprefixer = require("gulp-autoprefixer");
 const concat = require("gulp-concat");
-const eslint = require("gulp-eslint");
+// const eslint = require("gulp-eslint");
 
 /**
  * TypeScript transformers
@@ -91,18 +91,18 @@ const clean = () => {
 /**
  * Linting
  */
-const lint = (cb) => {
-  gulp
-    .src(["**/*.ts", "!node_modules/**"])
-    .pipe(
-      eslint({
-        //    configFile: __dirname + "/.eslintrc.json",
-      })
-    )
-    .pipe(eslint.formatEach("visualstudio", process.stderr))
-    .pipe(eslint.failAfterError());
-  cb();
-};
+// const lint = (cb) => {
+//   gulp
+//     .src(["**/*.ts", "!node_modules/**"])
+//     .pipe(
+//       eslint({
+//         //    configFile: __dirname + "/.eslintrc.json",
+//       })
+//     )
+//     .pipe(eslint.formatEach("visualstudio", process.stderr))
+//     .pipe(eslint.failAfterError());
+//   cb();
+// };
 
 /**
  * Compiling
@@ -183,4 +183,4 @@ watch.description = "watch for changes to all source";
 
 gulp.task("watch", watch);
 gulp.task("build", compile);
-gulp.task("lint", lint);
+// gulp.task("lint", lint);

@@ -1,6 +1,6 @@
 const onRenderPlayerList = (_playerList, html) => {
-    
-    document.body.style.setProperty("--playerlist-height", `${html.height()+22}px`);
+
+    document.body.style.setProperty("--playerlist-height", `${html.height() + 22}px`);
 
 }
 
