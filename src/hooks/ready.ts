@@ -3,8 +3,8 @@ import { getGame } from "../scripts/getGame";
 
 // fetches a tip from the API
 const fetchPackageList = async (): Promise<string[]> => {
-  let packageList: string[] = new Array;
-  getGame().modules.forEach((_value, key, _map) => {
+  let packageList: string[] = [];
+  getGame().modules.forEach((_value, key) => {
     packageList.push(key);
   });
   packageList.push(getGame().system.id);
@@ -26,7 +26,6 @@ const formatTip = (packageList: string[]): string => {
     if (getGame().i18n.translations["TIPS"][packageID]) tipID = i;
   }
 
-
   return `<h3><i class="fas fa-lightbulb"></i> ${getGame().i18n.localize("FOUNDRYTIPS.didyouknow")}</h3>
 <p>${getGame().i18n.localize(`TIPS.${packageID}.${tipID}`)}</p>
 `;
@@ -34,7 +33,10 @@ const formatTip = (packageList: string[]): string => {
 
 // displays a fetched tip once
 const onceReady = (): void => {
-  if (getGame().user?.data.role as number >= CONST.USER_ROLES.ASSISTANT || getGame().settings.get("tips", "show-everyone-gm-tips")) {
+  if (
+    (getGame().user?.data.role as number) >= CONST.USER_ROLES.ASSISTANT ||
+    getGame().settings.get("tips", "show-everyone-gm-tips")
+  ) {
     registerNotifications();
     // fetch a new tip
     fetchPackageList()
@@ -48,6 +50,6 @@ const onceReady = (): void => {
   }
 };
 
-type Foo = typeof window['vtta']['notification']['show'];
+type Foo = typeof window["vtta"]["notification"]["show"];
 
 export default onceReady;
