@@ -2,8 +2,8 @@ import registerNotifications from "../notifications/Notification.js";
 import { getGame } from "../scripts/getGame.js";
 // fetches a tip from the API
 const fetchPackageList = async () => {
-    let packageList = new Array;
-    getGame().modules.forEach((_value, key, _map) => {
+    let packageList = [];
+    getGame().modules.forEach((_value, key) => {
         packageList.push(key);
     });
     packageList.push(getGame().system.id);
@@ -31,7 +31,8 @@ const formatTip = (packageList) => {
 // displays a fetched tip once
 const onceReady = () => {
     var _a;
-    if (((_a = getGame().user) === null || _a === void 0 ? void 0 : _a.data.role) >= CONST.USER_ROLES.ASSISTANT || getGame().settings.get("tips", "show-everyone-gm-tips")) {
+    if (((_a = getGame().user) === null || _a === void 0 ? void 0 : _a.data.role) >= CONST.USER_ROLES.ASSISTANT ||
+        getGame().settings.get("tips", "show-everyone-gm-tips")) {
         registerNotifications();
         // fetch a new tip
         fetchPackageList()
