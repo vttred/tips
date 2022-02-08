@@ -10,6 +10,10 @@
   ],
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "build:watch": "gulp watch"
+  },
   "devDependencies": {
     "@league-of-foundry-developers/foundry-vtt-types": "^0.8.8-0",
     "@types/jquery": "^3.5.0",
