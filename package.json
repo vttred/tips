@@ -1,6 +1,6 @@
 {
   "name": "tips",
-  "version": "21.5.0",
+  "version": "",
   "description": "Foundry Tips",
   "main": "dist/index.js",
   "author": "VTT RED <tips@vtt.red>",
