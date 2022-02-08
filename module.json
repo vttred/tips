@@ -34,6 +34,11 @@
       "lang": "es",
       "name": "Español",
       "path": "dist/lang/es.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsche",
+      "path": "dist/lang/de.json"
     }
   ],
   "esmodules": ["dist/scripts/index.js"],
